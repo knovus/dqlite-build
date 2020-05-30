@@ -1,4 +1,4 @@
-FROM golang:1.13.4-alpine3.10 as build
+FROM i386/golang:1.13.4-alpine3.10 as build
 
 ARG LIBCO_VER=v20
 ARG RAFT_VER=v0.9.18
